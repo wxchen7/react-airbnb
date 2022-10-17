@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FooterWrapper = styled.div`
   margin-top: 100px;
@@ -42,4 +42,4 @@ export const FooterWrapper = styled.div`
     color: #767676;
     text-align: center;
   }
-`
+`;

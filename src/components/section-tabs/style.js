@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const TabsWrapper = styled.div`
   .item {
@@ -27,7 +27,7 @@ export const TabsWrapper = styled.div`
     
     &.active {
       color: #fff;
-      background-color: ${props => props.theme.color.secondaryColor};
+      background-color: ${(props) => props.theme.color.secondaryColor};
     }
   }
-`
+`;

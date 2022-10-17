@@ -1,5 +1,4 @@
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 export const FilterWrapper = styled.div`
   position: absolute;
@@ -32,4 +31,4 @@ export const FilterWrapper = styled.div`
       }
     }
   }
-`
+`;

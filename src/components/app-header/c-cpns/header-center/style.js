@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CenterWrapper = styled.div`
   .search-bar {
@@ -28,7 +28,7 @@ export const CenterWrapper = styled.div`
       height: 32px;
       border-radius: 50%;
       color: #FFF;
-      background-color: ${props => props.theme.color.primaryColor};
+      background-color: ${(props) => props.theme.color.primaryColor};
     }
   }
-`
+`;

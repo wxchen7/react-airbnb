@@ -1,4 +1,4 @@
-import axiosRequest from "./request"
+import axiosRequest from './request';
 
-export default axiosRequest
-export * from "./modules/home"
+export default axiosRequest;
+export * from './modules/home';

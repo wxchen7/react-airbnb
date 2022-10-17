@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const IndicatorWrapper = styled.div`
   overflow: hidden;
@@ -12,4 +12,4 @@ export const IndicatorWrapper = styled.div`
       flex-shrink: 0;
     }
   }
-`
+`;

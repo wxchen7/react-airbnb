@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ItemWrapper = styled.div`
   flex-shrink: 0;
@@ -52,4 +52,4 @@ export const ItemWrapper = styled.div`
       margin-top: 5px;
     }
   }
-`
+`;

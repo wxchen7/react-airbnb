@@ -1,11 +1,8 @@
-import React, {memo} from 'react';
-import {BannerWrapper} from "@/views/home/c-cpns/home-banner/style";
+import React, { memo } from 'react';
+import { BannerWrapper } from '@/views/home/c-cpns/home-banner/style';
 
-const HomeBanner = memo(() => {
-  return (
-    <BannerWrapper>
-    </BannerWrapper>
-  )
-})
+const HomeBanner = memo(() => (
+  <BannerWrapper />
+));
 
-export default HomeBanner
+export default HomeBanner;

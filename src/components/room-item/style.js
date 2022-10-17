@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ItemWrapper = styled.div`
   flex-shrink: 0;
   box-sizing: border-box;
-  width: ${props => props.itemWidth};
+  width: ${(props) => props.itemWidth};
   padding: 8px;
 
   .inner {
@@ -100,7 +100,7 @@ export const ItemWrapper = styled.div`
     margin: 10px 0 5px;
     font-size: 12px;
     font-weight: 500;
-    color: ${props => props.verifyColor};
+    color: ${(props) => props.verifyColor};
 
     &:hover {
       cursor: pointer;
@@ -130,7 +130,7 @@ export const ItemWrapper = styled.div`
     align-items: center;
     font-size: 12px;
     font-weight: 600;
-    color: ${props => props.theme.color.textColor};
+    color: ${(props) => props.theme.color.textColor};
 
     .count {
       margin: 0 2px 0 4px;
@@ -141,4 +141,4 @@ export const ItemWrapper = styled.div`
     }
   }
 }
-`
+`;

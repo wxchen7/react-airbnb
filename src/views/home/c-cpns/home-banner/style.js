@@ -1,8 +1,8 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 export const BannerWrapper = styled.div`
   height: 529px;
-  background: url(${require("@/assets/img/cover_01.jpeg")}) center/cover;
+  background: url(${require('@/assets/img/cover_01.jpeg')}) center/cover;
 
   .cover {
     position: absolute;
@@ -12,4 +12,4 @@ export const BannerWrapper = styled.div`
     bottom: 0;
     background: linear-gradient(to bottom,rgba(0, 0, 0, .3) 0%,rgba(0, 0, 0, .0) 300px,rgba(0, 0, 0, 0) 100%);
   }
-`
+`;

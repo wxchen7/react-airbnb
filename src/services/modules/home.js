@@ -1,40 +1,37 @@
-import axiosRequest from "../index"
+import axiosRequest from '../index';
 
 export function getHomeGoodPriceData() {
   return axiosRequest.get({
-    url: "/home/goodprice"
-  })
+    url: '/home/goodprice',
+  });
 }
 
 export function getHomeHighScoreData() {
   return axiosRequest.get({
-    url: "/home/highscore"
-  })
+    url: '/home/highscore',
+  });
 }
 
 export function getHomeDiscountData() {
   return axiosRequest.get({
-    url: "/home/discount"
-  })
+    url: '/home/discount',
+  });
 }
 
 export function getHomeHotRecommendData() {
   return axiosRequest.get({
-    url: "/home/hotrecommenddest"
-  })
+    url: '/home/hotrecommenddest',
+  });
 }
 
 export function getHomeLongForData() {
   return axiosRequest.get({
-    url: "/home/longfor"
-  })
+    url: '/home/longfor',
+  });
 }
 
 export function getHomePlusData() {
   return axiosRequest.get({
-    url: "/home/plus"
-  })
+    url: '/home/plus',
+  });
 }
-
-
-

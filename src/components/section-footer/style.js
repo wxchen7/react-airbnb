@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FooterWrapper = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const FooterWrapper = styled.div`
     cursor: pointer;
     font-size: 17px;
     font-weight: 700;
-    color: ${props => props.color};
+    color: ${(props) => props.color};
 
     &:hover {
       text-decoration: underline;
@@ -20,4 +20,4 @@ export const FooterWrapper = styled.div`
       margin-right: 6px;
     }
   }
-`
+`;
